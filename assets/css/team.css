@@ -1,0 +1,14 @@
+#team-overlay{
+  background: #00b8ee;
+  opacity: 1;
+  position: absolute;
+  z-index: 1;
+  width:100%;
+  right:0;
+  bottom: 0;
+  height: 70%;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 200;
+  font-color: black;
+}

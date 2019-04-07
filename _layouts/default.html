@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "zh-cn" }}">
+  <head>
+    {%- include meta.html -%}
+    <title>
+      {{ page.title | default: site.title }}
+    </title>
+    {%- include css.html -%}
+  </head>
+
+  <body id="home" class="parallax-page">
+    {{ content }}
+
+    {%- include footer.html -%}
+
+    {%- include js.html -%}
+  </body>
+</html>
