@@ -9,4 +9,3 @@ cssfile: homepage.css
 {%- include homepage/about.html -%}
 {%- include homepage/product.html -%}
 {%- include homepage/counter.html -%}
-{%- include homepage/team.html -%}
